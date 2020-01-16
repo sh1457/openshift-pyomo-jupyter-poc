@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+coverage = "*"
+
+[packages]
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+xlrd = "*"
+jupyter = "*"
+jupyterthemes = "*"
+pyomo = "*"
+
+[requires]
+python_version = "3.7"
